@@ -1,3 +1,10 @@
+import streamlit as st
+import numpy as np
+import pandas as pd
+from statsmodels.formula.api import ols
+import plotly.graph_objects as go
+from itertools import product
+
 # === Factor ranges ===
 temp_range = [35, 37, 39]
 co2_range = [4, 5, 6]
